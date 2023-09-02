@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    sup{
+        color: red;
+    }
+</style>
+<body>
+    <h1>SBI Bank Account Application Form</h1>
+    <form action="https://www.w3schools.com/" method="post">
+        <fieldset>
+        <legend>Bank account form</legend>
+        <label for="account">This application is for</label>
+        
+        <input type="radio" id="New" name="account" >
+        <label for="New">New Account</label>
+        
+        <input type="radio" id="renewal" name="account" >
+        <label for="renewal">Renewal or Change of Information</label><br><br>
+        <label for="name">Full Name<sup>*</sup></label>
+        <input type="text" id="first" name="name" placeholder="First Name" minlength="4">
+        <input type="text" id="second" name="name" placeholder="Middle Name">
+        <input type="text" id="third" name="name" placeholder="Last Name"><br><br>
+        <label for="birth">DOB<sup>*</sup></label>
+        <input type="date" id="birth" name="birth"><br><br>
+        <label for="Number">Contact<sup>*</sup></label>
+        <input type="number" id="Number" name="Name" placeholder="Phone Number" required><br><br>
+        <label for="Mail">Email<sup>*</sup></label>
+        <input type="email" id="Mail" name="Mail" placeholder="Email" required><br><br>
+        <label for="adhar">Adhar<sup>*</sup></label>
+        <input type="text" id="adhar" name="adhar" placeholder="(0000 0000 0000)"><br><br>
+        <label for="adhar">Upload your Adhar</label>
+        <input type="file" id="adhar" name="adhar"><br><br>
+        <label for="pan">PAN<sup>*</sup></label>
+        <input type="text" id="pan" name="pan"><br><br>
+        <label for="address">Address<sup>*</sup></label>
+        <input type="text" id="address" name="address" placeholder="Area">
+        <input type="text" id="city" name="address" placeholder="City"><br><br>
+        <label for="pin">Pin Code<sup>*</sup></label>
+        <input type="text" id="pin" name="pin"><br><br>
+        <input type="checkbox" id="check" name="check" checked>Terms and conditions<br>
+        <br>
+        <input type="submit">
+        <input type="reset" formaction="day_7Assignment.html">
+    </fieldset>
+    </form>
+
+    <h1></h1>
+</body>
+</html>
