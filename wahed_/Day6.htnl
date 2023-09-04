@@ -1,0 +1,38 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="day2.html" autocomplete="off" target="_blank">
+        <label for="fname">First Name<sup>*</sup></label>
+        <input type="text" id="fname" name="fame" pattern="[0-9_ *]{0,20}">
+        <!---regexpattern-->
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <br/><br/>
+        <input type="password" name="password">
+        <input type="submit" name="Login">
+        <input type="submit" value="Signup" formaction="file:///C:/Users/91809/OneDrive/Desktop/My%20Tests/test9.html">
+        <input type="button" value="Forget password">
+        </form>
+        <br/><br/>
+        <audio controld muted autoplay loop>
+            <source src="c:\Users\91809\Downloads\Guess I'll Never Know - TrackTribe.mp3" type="audio/mp3">
+        </audio>
+        <video controls poster="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/02/17/652326-virat-kohli-afp.jpg"
+        height="500px" weidth="200px">
+        <source src="c:\Users\91809\Downloads\batting.mp4">
+    </video>
+    <figure>
+        <img src="https://th.bing.com/th/id/OIP.WmnyEyLoRSUXXbv8H7LGbgHaHa?pid=ImgDet&rs=1" alt="team" weidth="150px" height="150px">
+        <figcaption>Team Work </figcaption>
+    </figure>
+    <img src="https://th.bing.com/th/id/OIP.WmnyEyLoRSUXXbv8H7LGbgHaHa?pid=ImgDet&rs=1" alt="team" weidth="150px" height="150px">
+    <a href="day2.html"> <img src="https://th.bing.com/th/id/OIP.WmnyEyLoRSUXXbv8H7LGbgHaHa?pid=ImgDet&rs=1" alt="team" weidth="150px" height="150px">
+        </a>
+    
+</body>
+</html>
