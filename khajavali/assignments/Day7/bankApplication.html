@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Bank Application Form</h1>
+        </div>
+            <form action="">
+                <fieldset>
+                    <legend><h2>Users information</h2></legend>
+                <div>
+                    <label for="name">
+                        <b>accounter'sName</b>
+                    </label><br><br>
+                    <input type="text" placeholder="Full name" name="name" id="name" pattern="[a-z]{3,50}">
+                </div>
+                <br>
+                <div>
+                    <label for="email">
+                        <b>Email</b>
+                    </label><br><br>
+                    <input type="email" placeholder="Email" name="email" id="email" pattern="[a-z.@0-9]+@[a-z0-9@./]{2,30}">
+                </div>
+
+                <br>
+                <div>
+                    <label for="password">
+                        <b>Password</b>
+                    </label><br><br>
+                    <input type="password" placeholder="*****" name="password" id="password" pattern="[a-zA-Z0-9@#]{8,}" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="cPassword">
+                        <b>confirmPassword</b>
+                    </label><br><br>
+                    <input type="password" placeholder="******" name="password" id="cPassword" pattern="[a-zA-Z0-9@#]{8,}">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phone">
+                        <b>phoneNumber</b>
+                    </label><br><br>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" pattern="[0-9+]{12,}">
+                </div>
+                <br>
+
+                <div>
+                    <label for="dob"><b>DOB</b></label><br><br>
+                    <input type="date" name="dob" id="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="type"><b>Select Account type</b></label>&nbsp;
+                    <select name="type" id="type">
+                        <option value="">Select</option>
+                        <option value="Savings Account type">Savings Account</option>
+                        <option value="Zero Balance Account type">Zero Balance Account</option>
+                        <option value="Digital Account type">Digital Account</option>
+                        <option value="others">others</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for=""><b>Card Type: </b></label><br>
+                    <input type="radio" name="card" id="card1" value="o+">
+                    <label for="">Debit Card</label>
+                    <input type="radio" name="card" id="card2" value="o-">
+                    <label for="">Credit Card</label>
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="desc"><b>description: </b></label><br><br>
+                    <textarea name="desc" id="desc" cols="50" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <div>
+            <fieldset>
+                <legend > <h2>Branch Users Address Information</h2></legend>
+                <label for="address"></label><br>
+                <div>
+                <input type="text" placeholder="Line 1" name="address" id="address1" pattern="[a-zA-Z0-9/-+]{4,20}" required>
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="Line 2" name="address" id="address2" pattern="[a-zA-Z0-9/-+]{4,20}">
+                </div>
+                <br>
+                <div> 
+                <input type="text" placeholder="Village" name="address" id="address3" pattern="[a-zA-Z0-9/-+]{4,20}" required>
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="City" name="address" id="address4" pattern="[a-zA-Z0-9/-+]{4,20}" required>
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="State" name="address" id="address5" pattern="[a-zA-Z0-9/-+]{4,20}">
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="Pin Code" name="address" id="address6" pattern="[a-zA-Z0-9/-+]{4,20}" required>
+                </div>
+                <br>
+            </fieldset>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend><h2>Submit Form</h2></legend>
+                    <button type="submit" formaction="../Day6/signUpResponse.html"> Submit</button>
+                </fieldset>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
