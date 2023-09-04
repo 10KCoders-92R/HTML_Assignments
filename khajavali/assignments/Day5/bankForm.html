@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Account Form</h1>
+        <form action="">
+            <div>
+                 <label for="name">FullName</label><br />
+                 <input type="text" placeholder="Full Name" required name="name" id="name"/>
+            </div>
+            <br />
+            <div>
+                <label for="email">Email</label><br />
+                <input type="email" placeholder="@email" required name="email" id="email"/>
+           </div>
+           <br />
+           <div>
+            <label for="phone">PhoneNumber</label><br />
+            <input type="tel" placeholder="Phone Number" required name="phone" id="phone"/>
+           </div>
+           <br />
+            <hr />
+            <br />
+           <div>
+            <label>Account type:</label><br />
+            <input type="checkbox" id="type1" name="type" value="account"/>
+            <label for="type1">Zero Account</label>
+            <input type="checkbox" id="type2" name="type" value="account"/>
+            <label for="type2">Savings Account</label>
+            <input type="checkbox" id="type3" name="type" value="account"/>
+            <label for="type3">Digital Account</label>
+           </div>
+           <br />
+          <div>
+            <label for="date">DateOfBirth</label>
+            <input type="date" name="date" id="date"/>
+          </div>
+          <br />
+          <div>
+            <label for="gender">Gender:</label><br />
+            <input type="radio" name="gender" id="gender1" value="male"/> 
+            <label for="gender1">male</label>
+            <input type="radio" name="gender" id="gender2" value="female"/> 
+            <label for="gender2">female</label>
+          </div>
+          <br />
+          <div>
+            <label for="proof">GovernmentIdProof: </label>&nbsp;
+            <input  type="file" id="proof" name="proof"/>
+          </div>
+          <br />
+          <div>
+            <label for="photo">Photo: </label> &nbsp;
+            <input type="file" id="photo" name="photo"/>
+          </div>
+          <br />
+          <div>
+            <label for="sign">signature: </label>&nbsp;
+            <input type="file" id="sign" name="sign"/>
+          </div>
+          <br />
+          <div>
+            <label><span>MartialStatus: </span></label><br /> 
+            <input type="radio" id="single1" name="status" value="single"/> 
+           <label for="single1">single</label> 
+            <input type="radio" id="married1" name="status" value="married"/>
+             <label for="married1">married</label>
+            <input type="radio" id="widow1" name="status" value="widow"/> 
+            <label for="widow1">widow</label>
+          </div>
+            <hr />
+            <br />
+          <div>
+            <label for="name">Address:</label><br />
+            <input type="text" placeholder="line1" name="address" id="address1"/><br /><br />
+            <input type="text" placeholder="line2" name="address" id="address2"/><br /><br /> 
+            <input type="text" placeholder="village" name="address" id="address3"/><br /><br />
+            <input type="text" placeholder="city" name="address" id="address4"/><br /><br />
+            <input type="text" placeholder="state" name="address" id="address5"/><br /><br />
+            <input type="number" placeholder="pinCode" name="address" id="address6"/>
+          </div>
+          <br />
+          <div>
+            <button type="submit" value="Submit">Submit</button>
+          </div>
+        </form>
+        <div>
+            <p><a href="#">Thank you</a></p>
+        </div>
+    </div>
+</body>
+</html>

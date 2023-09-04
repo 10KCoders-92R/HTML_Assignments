@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SinUp Form</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Sin Up Form
+        </h1>
+            <form action="">
+                <fieldset>
+                    <legend><h2>Personal information</h2></legend>
+                <div>
+                    <label for="name">
+                        <b>fullName</b>
+                    </label><br><br>
+                    <input type="text" placeholder="Full name" name="name" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">
+                        <b>Email</b>
+                    </label><br><br>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                </div>
+
+                <br>
+                <div>
+                    <label for="password">
+                        <b>Password</b>
+                    </label><br><br>
+                    <input type="password" placeholder="*****" name="password" id="password">
+                </div>
+                <br>
+
+                <div>
+                    <label for="cPassword">
+                        <b>confirmPassword</b>
+                    </label><br><br>
+                    <input type="password" placeholder="******" name="password" id="cPassword">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phone">
+                        <b>phoneNumber</b>
+                    </label><br><br>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone">
+                </div>
+                <br>
+
+                <div>
+                    <label for="dob">DOB</label><br><br>
+                    <input type="date" name="dob" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="degree"><b>Select Education</b></label>&nbsp;
+                    <select name="degree" id="degree">
+                        <option value="">Select</option>
+                        <option value="bachelor of technology">B.tech</option>
+                        <option value="bachelor of degree">B.com</option>
+                        <option value="bachelor of masters degree">M.tech</option>
+                        <option value="foreign diploma">Diploma</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for=""><b>bloodGroup: </b></label><br>
+                    <input type="radio" name="blood" id="blood1" value="o+">
+                    <label for="">O+</label>
+                    <input type="radio" name="blood" id="blood2" value="o-">
+                    <label for="">O-</label>
+                    <input type="radio" name="blood" id="blood3" value="a+">
+                    <label for="">A+</label>
+                    <input type="radio" name="blood" id="blood4" value="a-">
+                    <label for="">A-</label>
+                </div>
+                <br>
+                <div>
+                    <label for="desc"><b>description: </b></label><br><br>
+                    <textarea name="desc" id="desc" cols="50" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <div>
+            <fieldset>
+                <legend > <h2>Address Information</h2></legend>
+                <label for="address"></label><br>
+                <div>
+                <input type="text" placeholder="Line 1" name="address" id="address1">
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="Line 2" name="address" id="address2">
+                </div>
+                <br>
+                <div> 
+                <input type="text" placeholder="Village" name="address" id="address3">
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="City" name="address" id="address4">
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="State" name="address" id="address5">
+                </div>
+                <br>
+                <div>
+                <input type="text" placeholder="Pin Code" name="address" id="address6">
+                </div>
+                <br>
+            </fieldset>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend><h2>Submit Form</h2></legend>
+                    <button type="submit" formaction="../Day6/signUpResponse.html"> Submit</button>
+                </fieldset>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
