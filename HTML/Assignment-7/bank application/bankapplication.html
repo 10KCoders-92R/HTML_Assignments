@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bank Application Form</title>
+    <link rel="icon" href="https://icon-library.com/images/banking-icon/banking-icon-4.jpg">
+</head>
+<body>
+    <h1 style="text-align: center;">Bank application form</h1>
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+        <br>
+        <label for="fname"><b>Firstname:</b></label>
+        <input type="text" id="fname" name="fname">
+        
+        
+        <label for="midname"><b>Middle name:</b></label>
+        <input type="text" id="midname" name="midname">
+        
+        
+        <label for="lastname"><b>Last name:</b></label>
+        <input type="text" id="lastname" name="lastname">
+        <br><br>
+        
+        <label for="dob"><b>Date of birth:</b></label>
+        <input type="date" id="dob" name="dob" value="dob">
+        <br><br>
+
+        <label for="gender"><b>Gender:</b></label>
+        
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+        
+        <label for="ms"><b>Martial status:</b></label>
+        <select name="ms" id="ms">
+            <option value="Married">Married</option>
+            <option value="Unmarried">Unmarried</option>
+            <option value="Single">Single</option>
+        </select>
+        <br><br>
+        
+        <label for="email"><b>Email Id:</b></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <label for="num"><b>Phone number:</b></label>
+        <input type="tel" id="num" name="num" placeholder="xxxxxxxxxx">
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Account details</b></legend>
+    
+        <label for="at"><b>Account type</b></label>
+        <br>
+    <select id="at" name="at">
+        <option value="none" selected>None</option>
+        <option value="savings account">Savings account</option>
+        <option value="current account">Current account</option>
+        <option value="fixed diposit account">Fixed Diposit Account</option>
+        <option value="Term Deposit">Term deposit</option>
+    </select>
+    <br><br>
+    
+    <label for="proof"><b>Proof Of Attach</b></label>
+     <br>
+    <input type="checkbox" id="aadhar" name="aadhar" value="aadhar" placeholder="Example:xxxx-xxxx-xxxx-xxxx">
+    <label for="aadhar">Adhaar Card</label>
+    <br>
+    <input type="checkbox" id="pan" name="pan" value="pan">
+    <label for="pan">Pan card</label>
+    <br>
+    <input type="checkbox" id="passport" name="passport" value="passport">
+    <label for="passport">Passport</label>
+    <br><br>
+
+    <label for="upf"><b>Upload proof of attachment</b></label>
+    <br>
+    <input type="file" id="upf" name="upf" value="upf">
+    <br>
+</fieldset>
+ <br>
+ <fieldset>
+    <legend><b>Address detials</b></legend>
+    
+    <label for="ca"><b>Current address:</b></label>
+    <input type="text" id="ca" name="ca">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <label for="pa"><b>Permanent address:</b></label>
+    <input type="text" id="pa" name="pa">
+    <br><br>
+
+    <label for="state"><b>Select your state:</b></label>
+    <select id="state" name="state">
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="	ihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="West Bengal">West Bengal</option>
+        </select>
+        <br><br>
+
+        <label for="city"><b>City:</b></label>
+    <select id="city" name="city">
+        <option value="None">None</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Warangal">Warangal</option>
+        <option value="Nizamabad">Nizamabad</option>
+        <option value="Khammam">Khammam</option>
+        </select>
+        <br><br>
+        <label for="pincode"><b>Pincode:</b></label>
+    <input type="text" id="pincode" name="pincode">
+    
+    </fieldset>
+    <br>
+
+    <input type="checkbox" id="tandc" name="tandc">
+    <label for="tandc">I agree</label>
+
+    <a href="Terms and Conditions">Terms and Conditions</a>
+<br>
+<label for="submit"></label>
+<input type="submit" formaction="" id="submit" name="submit">
+
+</body>
+</html>
