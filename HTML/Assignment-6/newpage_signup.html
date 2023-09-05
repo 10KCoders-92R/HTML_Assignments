@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up</title>
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=nxm2PgL1Hkz6&format=png">
+</head>
+<body>
+
+    <h2>Sign Up</h2>
+<fieldset>
+    <legend>Personal details</legend>
+    <form>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+    
+        <label for="secname"></label>
+        <input type="text" id="secname" name="secname" placeholder="Second Name">
+         
+        <br><br>
+         
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email Here">
+        
+        <br><br>
+
+        <label for="phone"><b></b></label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your Mobile Number">
+        
+        <br><br>
+        
+        <label for="Password"></label>
+        <input type="password" id="password" name="password" placeholder="New password">
+         <br><br>
+
+        <label for="Password"></label>
+        <input type="password" id="password" name="password" placeholder="Confirm new password">
+    </fieldset>
+        <br><br>
+
+        <label for="dob"><b>Date Of Birth:</b></label>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="gender"><b>Gender:</b></label>
+        
+        <input type="radio" id="Male" name="gender">
+        <label for="gender">Male</label>
+        
+        <input type="radio" id="Female" name="gender">
+        <label for="gender">Female</label>
+        <br>
+        <br>
+        
+        <label for="dept"><b>Departments:</b></label>
+        <select name="Department" id="dept">
+            <option value="computer science">CSE</option>
+            <option value="electrical">EEE</option>
+            <option value="Electronics">ECE</option>
+            <option value="mechanical">MECH</option>
+        </select>  
+
+        <br><br>
+        <label for="objective"><b>Address 1:</b></label>
+        <br>
+        <textarea id="objective" name="objective" rows="2" cols="45"></textarea>
+        <br><br>
+
+        <label for="objective"><b>Address 2:</b></label>
+        <br>
+        <textarea id="objective" name="objective" rows="2" cols="45"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+        <label for="checkbox"><small>I have read and agree to the privacy policy.</small></label>
+        <br>
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+        <label for="checkbox"><small>Terms of service and community guidelines.</small></label>
+        <br><br>
+        
+        <label for="submit"></label>
+        <input type="submit" formaction="http://127.0.0.1:3000/successsignup.html" name="submit" id="submit">
+
+</body>
+</html>
