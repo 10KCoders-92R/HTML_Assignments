@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bank Application</title>
+</head>
+<body>
+    <h1 align="center">Bank Application Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fname">First name :</label>
+            <input type="text" name="fname" id="fname" >&nbsp;
+
+            <label for="mname">Middle name :</label>
+            <input type="text" name="mname" id="mname" >&nbsp;
+
+            <label for="lname">Last name :</label>
+            <input type="text" name="lname" id="lname" ><br><br>
+
+            <label for="adhaar">Adhaar Number :</label>
+            <input type="text" name="adhaar" id="adhaar" ><br><br>
+
+            <label for="fatname">Father name :</label>
+            <input type="text" name="fatname" id="fatname"  >&nbsp;
+
+            <label for="motname">Mother name :</label>
+            <input type="text" name="motname" id="motname" ><br><br>
+
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob" ><br><br>
+
+            <label for="gender">Gender :</label>
+            <input type="radio" name="male" id="gender"  value="male">Male &nbsp;
+            <input type="radio" name="female" id="gender" value="female">Female
+            <br><br>
+
+            <label for="address">Residencial Address :</label>
+            <textarea name="address" id="address" cols="5"></textarea><br><br>
+
+            <label for="city">City :</label>
+            <input type="text" name="city" id="cite"  >&nbsp;
+
+            <label for="district">District :</label>
+            <input type="text" name="district" id="district" >&nbsp;
+
+            <label for="state">State :</label>
+            <input type="text" name="state" id="state" >&nbsp;
+
+            <label for="pincode">Pincode :</label>
+            <input type="text" name="pincode" id="pincode"  >&nbsp;
+
+        </fieldset>
+        <fieldset>
+            <legend>Account Details</legend>
+
+            <label for="acctype">Type of Account :</label>
+            <input type="radio" name="acctype" id="self"  value="self">Self &nbsp;
+            <input type="radio" name="acctype" id="personal" value="personal">Personal &nbsp;
+            <input type="radio" name="acctype" id="Joint"  value="Joint">Joint &nbsp;
+            <br><br>
+
+            <label for="doc">Branches Available</label>
+            <select >
+                <option value="None" selected>None</option>
+                <option value="hyd">Hyderabad</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="rjy">Rajahmundry</option>
+            </select><br><br>
+            
+            <label for="doc">Proofs of Identication</label>
+            <input type="checkbox" name="doc1" id="adhaar"  value="adhaar">AdhaarCard&nbsp;
+            <input type="radio" name="doc2" id="pancard" value="pancard">Pancard &nbsp;
+            <input type="radio" name="doc3" id="passport"  value="passport">Pancard &nbsp;<br><br>
+
+            <label for="upload">Upload Here:</label>
+            <input type="file" name="upload" id="upload" multiple><br><br>
+             
+
+
+        </fieldset>
+
+        <input type="submit" formaction="success.html">
+    </form>
+</body>
+</html>
