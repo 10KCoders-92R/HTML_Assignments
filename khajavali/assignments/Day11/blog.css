@@ -1,0 +1,47 @@
+* {
+    background-color: aquamarine;
+}
+.container {
+    opacity: 0.9;
+    margin: 4rem;
+}
+.head {
+    color: rgb(250, 107, 5);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.child {
+    text-align: center;
+    line-height: 20px;
+    color: rgb(250, 107, 5);
+    text-transform: capitalize;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+li,p {
+    text-align: justify;
+    padding: 5px 25rem;
+}
+h1,h2 {
+    color: #0c0cdc;
+    padding: 20px 0;
+}
+.profile {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+img {
+    border-radius: 25px;
+}
+br {
+    background-color: chocolate;
+    border-width: 2px;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: blue;
+}

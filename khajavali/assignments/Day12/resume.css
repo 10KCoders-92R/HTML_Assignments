@@ -1,0 +1,59 @@
+.head {
+    background-color: rgb(7, 7, 105);
+    color:antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.icon {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.photo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.profile {
+    padding: 30px 50px;
+}
+.objectCareer {
+    padding: 50px 50px 5px 50px;
+}
+h1 {
+    padding-left: 190px;
+    padding-top: 20px;
+}
+.icons {
+    padding: 10px;
+}
+
+p {
+    opacity: 0.8;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 1px;
+}
+table, td, th {
+    width: 75%;
+    text-align: justify;
+}
+.table {
+    padding: 20px;
+}
+th,h3 {
+    color: rgb(221, 79, 127);
+}
+h2 {
+    color: rgb(7, 7, 105);
+}
+.container {
+    background-color: azure;
+}
+li {
+    line-height: 20px;
+    text-transform: capitalize;
+}
