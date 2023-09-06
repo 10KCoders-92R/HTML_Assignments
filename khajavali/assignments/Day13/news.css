@@ -1,0 +1,22 @@
+h1 {
+    font-family: "Engravers Old English BT W03 Rg";
+    text-align: center;
+    font-size: 100px;
+}
+#s2 {
+    font-size: small;
+}
+
+#s2, #s3 , #s4{
+    padding-left: 200px;
+}
+.news {
+    text-align: justify;
+    columns: 100px 5; 
+    font-family: 'Helvetica Neue';
+    font-size: 16px; 
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
