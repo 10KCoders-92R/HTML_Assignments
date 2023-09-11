@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20) ;
+}
+div .logo {
+    height: 90px;
+    width: 90px;
+    padding-left: 60px;
+}
+
+.main-header {
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(20, 20, 20);
+   width: 100%;
+   height: 80px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 20px 0px 0px 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #cec0c0;
+}
+.right-header {
+    padding: 22px 0px 0px 600px;
+    display: flex;
+    align-content: center;
+}
+
+div .search {
+    height: 35px;
+    width: 35px;
+}
+
+span {
+    color: #cec0c0;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px;
+}
+
+div .notification  {
+    height: 38px;
+    width: 38px;
+}
+
+div .profile {
+    height: 38px;
+    width: 38px;
+    padding: 0px 20px;
+}
+
+div .filim1 {
+    width: 100%;
+    height: 10%;
+}
+
+h2 {
+    color: #cec0c0;
+}
+
+.filim {
+    border-radius: 10px;
+    padding: 2px;
+}
+.filim-list {
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
