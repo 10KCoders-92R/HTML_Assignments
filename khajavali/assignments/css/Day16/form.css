@@ -1,0 +1,94 @@
+.container {
+ margin-left: auto;
+ margin-right: 180px;
+ width: 40%;
+ height: 600px;
+ margin-top: 30px;
+}
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0);
+    background-image: url(./assets/chandrayan.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div input {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(11, 11, 235, 0.932);
+}
+.child {
+    width: 50%;
+    height: 350px;
+    float: right;
+    margin-top: 20px;
+}
+h1 {
+    color: crimson;
+    text-align: right;
+    margin: 0 50px 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    
+}
+[placeholder] {
+    border-bottom: 2px solid blue;
+}
+.primary-button {
+    padding: 10px 50px;
+    background-color: crimson;
+    border-radius: 5px;
+    margin-top: 28px;
+    color: #fff;
+}
+.child:last-child {
+    text-align: center;
+}
+.primary-button:hover {
+    background-color: rgba(185, 1, 38, 0.966);
+}
+input:hover {
+    background-color: white;
+}
+
+[class="logo"] {
+    display: block;
+    margin-left: auto;
+    margin-right: 280px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+input::placeholder {
+    text-align: center;
+    color: #fff;
+}
+header {
+    background-color: black;
+    height: 60px;
+}
+h2 {
+    display: inline;
+    margin: 0;
+    text-align: left;
+    color: blue;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+div nav {
+    display: inline;
+    padding-left: 200px;
+    width: 600px;
+}
+a {
+    text-decoration: none;
+    padding: 0 50px;
+    color: blue;
+    font-size: 16px;
+}

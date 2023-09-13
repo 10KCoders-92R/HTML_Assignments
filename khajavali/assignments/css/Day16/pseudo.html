@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class</title>
+    <link rel="stylesheet" href="./pseudo.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="sub"><a href="#">Pseudo Class & Elements</a></h1>
+      <div class="container">
+        <img src="./assets/emoji1.jpg" alt="emoji">
+        <h2>Pseudo Classes</h2>
+        <p>A pseudo-class is used to define a special state of an element.</p>
+        <ul>
+            <li>Style an element when a user mouses over it</li>
+            <li>Style visited and unvisited links differently</li>
+            <li>Style an element when it gets focus</li>
+        </ul>
+        <p>selector:pseudo-class {
+            property: value;
+          }</p>
+          <p>The :first-child pseudo-class matches a specified element that is the first child of another element.</p>
+          <p>The :last-child pseudo-class matches a specified element that is the last child of another element.</p>
+          <dl>
+            <dt>:link</dt>
+            <dd>unvisited link</dd>
+            <dt>:visited</dt>
+            <dd>visited link</dd>
+            <dt>:hover</dt>
+            <dd>mouse hover</dd>
+            <dt>:active</dt>
+            <dd>selected link</dd>
+          </dl>
+          <h2>Pseudo Elements</h2>
+          <dl>
+            <dt>::after</dt>
+            <dd>Insert content after every element</dd>
+            <dt>::before</dt>
+            <dd>Insert content before every element</dd>
+            <dt>::first-line</dt>
+            <dd>Selects the first letter of every element</dd>
+            <dt>::first-line</dt>
+            <dd>Selects the first line of every element</dd>
+            <dt>::marker</dt>
+            <dd>	Selects the markers of list items</dd>
+            <dt>::selection</dt>
+            <dd>Selects the portion of an element that is selected by a user</dd>
+          </dl>
+      </div>
+    </div>
+  </body>
+</html>

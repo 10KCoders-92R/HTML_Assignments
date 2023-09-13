@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: rgb(200, 241, 228);
+}
+
+.container {
+    background-color: #492000;
+    width: 60%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 50px;
+    padding: 40px;
+    color: #ffff;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.head {
+    margin: 5rem;
+}
+[class="sub"] {
+    text-align: center;
+}
+[alt="emoji"] {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+li::marker {
+    color: chartreuse;
+}
+h1 a {
+  color: crimson;
+}
+a:link {
+    color: coral;
+}
+
+a:hover {
+    color: blue;
+}
+a:active {
+    color: rgba(220, 20, 60, 0.74);
+}

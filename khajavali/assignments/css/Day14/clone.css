@@ -35,6 +35,7 @@ a {
     padding: 22px 0px 0px 600px;
     display: flex;
     align-content: center;
+    float: right;
 }
 
 div .search {
