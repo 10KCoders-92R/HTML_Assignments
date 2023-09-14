@@ -1,0 +1,40 @@
+.box1 {
+   top: 310px;
+   left: 799px;
+}
+
+.box2 {
+   top: 310px;
+   left: 800px;
+}
+
+.box3 {
+   top: 417px;
+   left: 587px;
+}
+
+.box4 {
+    top: 417px;
+   left: 588px;
+}
+div {
+    border: 1px solid black ; 
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: azure;
+}
+body {
+    margin: 0;
+    background-color: #3636C7;
+}
+h1 {
+    display: inline-block;
+    position: relative;
+    top: 482px;
+    left: 332px;
+    font-size: 60px;
+    color: azure;
+}
