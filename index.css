@@ -1,0 +1,38 @@
+header {
+   /* all elements are placed in one direction */
+   display: flex;
+   flex-direction: column;
+   background-color: #a558bc;
+   justify-content: space-around;
+
+
+}
+
+ul {
+
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 200px;
+   flex-wrap: wrap;
+   align-content: space-around;
+   align-items: center;
+   gap: 50px;
+   /* flex is one directional*/
+   /* align - cross axis , justify content - main axis */
+   /* align content - flex-wrap should be wrap */
+}
+
+a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+nav {
+   background-color: rgb(201, 41, 182);
+   width: 500px;
+   height: 250px;
+}
+
+img {}
